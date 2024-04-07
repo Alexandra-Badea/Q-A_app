@@ -9,7 +9,7 @@
 <body>
     <?php
         // Include header
-        include "./header.php";
+        include "./includes/header.php";
 
         // Check if user is already logged in
         if (!isset($_SESSION["id"]) && !isset($_SESSION["name"])) {

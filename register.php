@@ -16,7 +16,7 @@
             }
 
             // Include header
-            include "./header.php";
+            include "./includes/header.php";
 
             // Include database connection
             include "./includes/db_connection.php";
